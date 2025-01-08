@@ -1,6 +1,6 @@
 # ChemCoach Solutions
 
-ChemCoach Solutions is a platform designed to simplify and enhance the learning experience in chemistry.
+A simple, responsive web application built with Next.js 14, React, Node.js, Tailwind CSS, and written entirely in TypeScript. This app showcases the services of ChemCoach Solutions, highlighting their online chemistry classes. While the site itself does not host classes, it serves as an informative platform for promoting their offerings with a clean design and smooth user experience.
 
 ## Features
 
