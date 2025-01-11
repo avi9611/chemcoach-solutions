@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ChemCoach Solutions
 
-## Getting Started
+A simple, responsive web application built with Next.js 14, React, Node.js, Tailwind CSS, and written entirely in TypeScript. This app showcases the services of ChemCoach Solutions, highlighting their online chemistry classes. While the site itself does not host classes, it serves as an informative platform for promoting their offerings with a clean design and smooth user experience.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **User-Friendly Interface**: Designed with ease of use in mind for students and educators.
+- **Smooth Animations**: Enhanced user experience with Framer Motion for seamless animations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Built With
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 14**: React framework for server-side rendering and static site generation.
+- **React**: For building reusable UI components.
+- **Node.js**: Backend runtime environment for handling server logic.
+- **Framer Motion**: For animations and transitions.
+- **TypeScript**: For type-safe JavaScript development.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+Follow these steps to set up ChemCoach Solutions locally:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/avi9611/chemcoach-solutions.git
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Navigate to the project directory:
+   ```bash
+   cd chemcoach-solutions
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Open your browser and go to `http://localhost:3000` to view the application.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Usage
+
+- Navigate through the app to explore various features like the Periodic Table, Chemistry Tools, and Learning Modules.
+- Solve practice problems to strengthen your understanding of chemistry concepts.
+
+## Deployment
+
+To deploy this project to a production environment:
+
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+
+2. Start the production server:
+   ```bash
+   npm run start
+   ```
+
+3. Deploy the build folder to your preferred hosting platform (e.g., Vercel, AWS, Netlify).
+
+## Contributing
+
+Contributions are welcome! If you have ideas for new features or improvements:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, reach out to:
+
+- **Author**: Avinash N
+- **Email**: [avinashpoojary@example.com](mailto:avinashpoojary@example.com)
+- **GitHub**: [avi9611](https://github.com/avi9611)
+
+---
+
+Thank you for using ChemCoach Solutions! Together, let's make chemistry learning simple and enjoyable.
