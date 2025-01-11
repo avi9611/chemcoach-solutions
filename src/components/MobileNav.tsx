@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
 import Image from "next/image";
+import { useState } from "react";
 
 const links = [
   {
@@ -27,9 +28,14 @@ const links = [
 
 const MobileNav = () => {
   const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    setIsOpen(false); // Close the side menu
+  };
 
   return (
-    <Sheet>
+    <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetTrigger
         className="flex justify-center items-center"
         aria-label="Open navigation menu"
@@ -56,6 +62,7 @@ const MobileNav = () => {
               <Link
                 href={link.path}
                 key={index}
+                onClick={handleLinkClick} // Close the menu on link click
                 className={`${
                   link.path === pathname
                     ? "text-accent border-b-2 border-accent"
